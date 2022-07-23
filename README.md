@@ -36,3 +36,25 @@ the original string. You can assume the string has only uppercase and lowercase 
 - Problem 7 - **String Rotation**: Assume you have a method isSubstring() which checks if one word is a substring
 of another. Given two strings, sl and s2, write code to check if s2 is a rotation of sl using only one
 call to isSubstring (e.g., "waterbottle" is a rotation of"erbottlewat").
+
+- Problem 8 - [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- Problem 9 - [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+- Problem 10 - [Valid parentheses](https://leetcode.com/problems/valid-parentheses/)
+- Problem 11 - [Remove Consecutive Characters](https://practice.geeksforgeeks.org/problems/consecutive-elements2306/1)
+- Problem 12 - [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+- Problem 13 - [Convert a Sentence into its Equivalent Mobile Numeric Keypad Sequence](https://www.geeksforgeeks.org/convert-sentence-equivalent-mobile-numeric-keypad-sequence/)
+- Problem 14 - [Print all the Duplicates in the Input String](https://www.geeksforgeeks.org/print-all-the-duplicates-in-the-input-string/)
+- Problem 15 - [Longest Substring without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- Problem 16 - [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- Problem 17 - [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+- Problem 18 - [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- Problem 19 - [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+- Problem 20 - [Next Permutation](https://practice.geeksforgeeks.org/problems/next-permutation5226/1)
+- Problem 21 - Count Palindromic Subsequences 
+- Problem 22 - Smallest Window in a String Containing all the Characters of Another String
+- Problem 23 - Wildcard String Matching
+- Problem 24 - Longest Prefix Suffix
+- Problem 25 - Rabin-Karp Algorithm for Pattern Searching
+- Problem 26 - Transform One String to Another using Minimum Number of Given Operation
+- Problem 27 - Minimum Window Substring
+- Problem 28 - Boyer Moore Algorithm for Pattern Searching
