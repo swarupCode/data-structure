@@ -1,5 +1,6 @@
 package com.tree;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingDeque;
@@ -72,9 +73,7 @@ public class BinaryTrees {
                 System.out.print(curr.data + " ");
                 if(curr.left != null) queue.add(curr.left);
                 if(curr.right != null) queue.add(curr.right);
-
             }
-
         }
     }
 
@@ -83,6 +82,28 @@ public class BinaryTrees {
         int heightOfLeftTree = getHeightOfTree(root.left);
         int heightOfRightTree = getHeightOfTree(root.right);
         return Math.max(heightOfLeftTree, heightOfRightTree) + 1;
+    }
+
+    static ArrayList<Integer> list = new ArrayList<Integer>();
+    static ArrayList<Integer> leftView(Node root)
+    {
+        // Your code here
+
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        printLeftView(root, list, 0);
+
+
+        return list;
+
+    }
+
+    static void printLeftView(Node root, ArrayList<Integer> list, int level) {
+        if(root == null) return;
+        if(!list.contains(level)) {
+            list.add(root.data);
+        }
+        printLeftView(root.left, list, level + 1);
+        printLeftView(root.right, list, level + 1);
     }
 
     public static void main(String[] args) {
@@ -99,6 +120,7 @@ public class BinaryTrees {
         System.out.println("\nTotal nodes: "+getTotalNumberOfNodes(root));
         System.out.println("\nSum of nodes: "+getSumOfNodesData(root));
         System.out.println("\nHeight of Tree: "+getHeightOfTree(root));
+        System.out.println("\nleftView: "+leftView(root));
 
     }
 }

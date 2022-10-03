@@ -24,8 +24,8 @@ Explanation: We need to pick 7 packets. We pick 40, 41, 42, 44, 48, 43 and 50 to
 public class Prob003_ChocolateMin {
 
     public static void main(String[] args) {
-        int[] arr = {3, 4, 1, 9, 56, 7, 9, 12};
-//        int arr[] = {12, 4, 7, 9, 2, 23, 25, 41, 30, 40, 28, 42, 30, 44, 48, 43, 50};
+//        int[] arr = {3, 4, 1, 9, 56, 7, 9, 12};
+        int arr[] = {12, 4, 7, 9, 2, 23, 25, 41, 30, 40, 28, 42, 30, 44, 48, 43, 50};
         int numOfPackets = arr.length;
         int numOfStudents = 7;
         System.out.println(getMinDifference(arr, numOfStudents, numOfPackets));
@@ -38,6 +38,7 @@ public class Prob003_ChocolateMin {
         if (n < m) return -1;
 
         Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
 
         for (int i=0; i+m-1 < n; i++) {
             int diff = arr[i+m-1] - arr[i];
