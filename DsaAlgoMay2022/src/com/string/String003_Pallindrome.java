@@ -11,6 +11,8 @@ public class String003_Pallindrome {
         // remove all special characters + toLowercase
         String new_string = s.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
         System.out.println(new_string);
+        StringBuilder sb = new StringBuilder();
+
 
         //create a char array of string
         char[] str = new_string.toCharArray();

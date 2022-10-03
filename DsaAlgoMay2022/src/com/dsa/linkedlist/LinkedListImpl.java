@@ -1,7 +1,5 @@
 package com.dsa.linkedlist;
 
-import javafx.scene.transform.Rotate;
-
 import java.util.LinkedList;
 
 public class LinkedListImpl<E> {
