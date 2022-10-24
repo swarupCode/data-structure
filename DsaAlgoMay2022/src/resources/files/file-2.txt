@@ -1,0 +1,4 @@
+DepartmentName    ID
+Science    020
+Economics  012
+Law        033

@@ -6,8 +6,9 @@ public class String002_ReplaceSpace {
     public static void main(String[] args) {
         String s = "Mr John Smith \", 13";
 
-//        String new_string = s.replaceAll("\\W", "%20");
-//        System.out.println(new_string);
+        String new_string = s.replaceAll("\\W", "%20");
+        System.out.println(new_string);
+
 
         /*char[] str = s.toCharArray();
         StringBuilder sb = new StringBuilder();
@@ -22,8 +23,8 @@ public class String002_ReplaceSpace {
         }
         System.out.println(sb.toString());*/
 
-        String str = getReplacedString(s);
-        System.out.println(str);
+//        String str = getReplacedString(s);
+        System.out.println(s);
     }
 
     private static String getReplacedString(String s) {

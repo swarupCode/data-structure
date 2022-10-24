@@ -1,0 +1,8 @@
+EmployeeName    Age
+DepartmentName    ID
+Arun    22
+Science    020
+Rakesh  34
+Economics  012
+Tom     44
+Law        033

@@ -1,0 +1,9 @@
+f
+wer
+I am a new BufferedWriter Object.
+d
+abc
+I am a old BufferedWriter Object.
+d
+abc
+I am a old BufferedWriter Object.
